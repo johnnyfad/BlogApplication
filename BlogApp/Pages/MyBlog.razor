@@ -1,0 +1,47 @@
+﻿@page "/myblog"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+<PageTitle>My Blog</PageTitle>
+
+<Virtualize Items="TestList" Context="a">
+    <div class="row">
+        @foreach (var item in @a)
+        {
+            <div class="col m-5 bg-slate-500 border rounded">
+                <img class="ps-5 pt-1"
+                     src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*POAUldBjPRY5DCewGpXx8Q.png"
+                     height="200" width="200" />
+                <p class="pt-2 font-weight-bold">Special Report: Extreme Heat and Human Health</p>
+                <p>
+                    Excessive heat is pushing the limits of human tolerability. In more than a dozen articles, Wise & Well examines how hot is too hot, how heat attacks body and mind in insidious ways, and what we can do to survive this rapidly warming world.
+                </p>
+                <button type="button" class="btn btn-warning" @onclick="HandleEditBlog">Edit</button>
+                <button type="button" class="btn btn-danger" >Delete</button>
+            </div>
+        }
+    </div>
+</Virtualize>
+
+@code {
+    private List<IEnumerable<string>> TestList = new();
+
+    protected override void OnInitialized()
+    {
+        for (int i = 0; i < 20; i++)
+            TestList.Add(GetRow());
+    }
+
+    IEnumerable<string> GetRow()
+    {
+        var rows = new List<string>();
+        for (int i = 0; i < 3; i++)
+        {
+            rows.Add(Guid.NewGuid().ToString());
+        }
+        return rows;
+    }
+    private void HandleEditBlog()
+    {
+        NavigationManager.NavigateTo("/blogedit");
+    }
+}
