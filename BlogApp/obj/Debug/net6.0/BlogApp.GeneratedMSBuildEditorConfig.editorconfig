@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlogApp
 build_property.RootNamespace = BlogApp
-build_property.ProjectDir = C:\Users\Research\source\repos\BlogApp\BlogApp\
+build_property.ProjectDir = C:\Users\Research\source\repos\BlogApp\BlogApp\BlogApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Research\source\repos\BlogApp\BlogApp
+build_property.MSBuildProjectDirectory = C:\Users\Research\source\repos\BlogApp\BlogApp\BlogApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Research/source/repos/BlogApp/BlogApp/App.razor]
+[C:/Users/Research/source/repos/BlogApp/BlogApp/BlogApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Research/source/repos/BlogApp/BlogApp/Pages/AddBlog.razor]
+[C:/Users/Research/source/repos/BlogApp/BlogApp/BlogApp/Pages/AddBlog.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQmxvZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Research/source/repos/BlogApp/BlogApp/Pages/BlogEdit.razor]
+[C:/Users/Research/source/repos/BlogApp/BlogApp/BlogApp/Pages/BlogEdit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ0VkaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Research/source/repos/BlogApp/BlogApp/Pages/Index.razor]
+[C:/Users/Research/source/repos/BlogApp/BlogApp/BlogApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Research/source/repos/BlogApp/BlogApp/Pages/Login.razor]
+[C:/Users/Research/source/repos/BlogApp/BlogApp/BlogApp/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Research/source/repos/BlogApp/BlogApp/Pages/MyBlog.razor]
+[C:/Users/Research/source/repos/BlogApp/BlogApp/BlogApp/Pages/MyBlog.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlCbG9nLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Research/source/repos/BlogApp/BlogApp/Pages/ProfileEditrazor.razor]
+[C:/Users/Research/source/repos/BlogApp/BlogApp/BlogApp/Pages/ProfileEditrazor.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZUVkaXRyYXpvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Research/source/repos/BlogApp/BlogApp/Pages/Register.razor]
+[C:/Users/Research/source/repos/BlogApp/BlogApp/BlogApp/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Research/source/repos/BlogApp/BlogApp/Shared/LoginLayout.razor]
+[C:/Users/Research/source/repos/BlogApp/BlogApp/BlogApp/Shared/LoginLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Research/source/repos/BlogApp/BlogApp/Shared/SurveyPrompt.razor]
+[C:/Users/Research/source/repos/BlogApp/BlogApp/BlogApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Research/source/repos/BlogApp/BlogApp/_Imports.razor]
+[C:/Users/Research/source/repos/BlogApp/BlogApp/BlogApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Research/source/repos/BlogApp/BlogApp/Shared/MainLayout.razor]
+[C:/Users/Research/source/repos/BlogApp/BlogApp/BlogApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-15jnec6cnn
 
-[C:/Users/Research/source/repos/BlogApp/BlogApp/Shared/NavMenu.razor]
+[C:/Users/Research/source/repos/BlogApp/BlogApp/BlogApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-suui8li1an

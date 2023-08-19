@@ -1,4 +1,5 @@
-﻿using BlogWebApi.Model;
+﻿
+using BlogApp.ClassLib.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace BlogWebApi.Data

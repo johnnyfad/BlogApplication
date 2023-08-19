@@ -1,5 +1,6 @@
-﻿using BlogWebApi.Data;
-using BlogWebApi.Model;
+﻿using BlogApp.ClassLib.Model;
+using BlogWebApi.Data;
+
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

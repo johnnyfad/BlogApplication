@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BlogApp.ClassLib\BlogApp.ClassLib.csproj" />
     <ProjectReference Include="..\BlogApp\BlogApp.csproj" />
     <ProjectReference Include="..\BlogWebApi\BlogWebApi.csproj" />
   </ItemGroup>

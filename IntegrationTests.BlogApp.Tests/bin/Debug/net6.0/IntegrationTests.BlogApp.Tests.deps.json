@@ -9,6 +9,7 @@
       "IntegrationTests.BlogApp.Tests/1.0.0": {
         "dependencies": {
           "BlogApp": "1.0.0",
+          "BlogApp.ClassLib": "1.0.0",
           "BlogWebApi": "1.0.0",
           "FakeItEasy": "7.4.0",
           "MSTest.TestAdapter": "2.2.10",
@@ -167,6 +168,34 @@
             "assemblyVersion": "6.0.16.0",
             "fileVersion": "6.0.1623.17406"
           }
+        }
+      },
+      "Microsoft.AspNetCore.Cors/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.0"
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "7.0.0"
+        }
+      },
+      "Microsoft.AspNetCore.Http.Extensions/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Microsoft.Net.Http.Headers": "2.2.0",
+          "System.Buffers": "4.5.1"
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0"
         }
       },
       "Microsoft.AspNetCore.Metadata/6.0.16": {
@@ -558,6 +587,12 @@
             "assemblyVersion": "6.0.16.0",
             "fileVersion": "6.0.1623.17406"
           }
+        }
+      },
+      "Microsoft.Net.Http.Headers/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0",
+          "System.Buffers": "4.5.1"
         }
       },
       "Microsoft.NET.Test.Sdk/17.5.0": {
@@ -1902,14 +1937,22 @@
       },
       "BlogApp/1.0.0": {
         "dependencies": {
+          "BlogApp.ClassLib": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.16"
         },
         "runtime": {
           "BlogApp.dll": {}
         }
       },
+      "BlogApp.ClassLib/1.0.0": {
+        "runtime": {
+          "BlogApp.ClassLib.dll": {}
+        }
+      },
       "BlogWebApi/1.0.0": {
         "dependencies": {
+          "BlogApp.ClassLib": "1.0.0",
+          "Microsoft.AspNetCore.Cors": "2.2.0",
           "Microsoft.EntityFrameworkCore": "7.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10",
           "Swashbuckle.AspNetCore": "6.2.3"
@@ -2017,6 +2060,34 @@
       "sha512": "sha512-lgdxnQ9ORzBq39UwZfPRxjD/p8ZrYtyQ7ot/N8lqj0o/Z2BhhH3F6VTXhxWi6xgbJ5epU3mnx+EXRQ69ha+OXg==",
       "path": "microsoft.aspnetcore.components.webassembly/6.0.16",
       "hashPath": "microsoft.aspnetcore.components.webassembly.6.0.16.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Cors/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LFlTM3ThS3ZCILuKnjy8HyK9/IlDh3opogdbCVx6tMGyDzTQBgMPXLjGDLtMk5QmLDCcP3l1TO3z/+1viA8GUg==",
+      "path": "microsoft.aspnetcore.cors/2.2.0",
+      "hashPath": "microsoft.aspnetcore.cors.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Extensions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2DgZ9rWrJtuR7RYiew01nGRzuQBDaGHGmK56Rk54vsLLsCdzuFUPqbDTJCS1qJQWTbmbIQ9wGIOjpxA1t0l7/w==",
+      "path": "microsoft.aspnetcore.http.extensions/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Metadata/6.0.16": {
       "type": "package",
@@ -2283,6 +2354,13 @@
       "sha512": "sha512-Ryj6x1tAHyUbZlNOO1II27aGUmVzJefZH85OREIqgx2tHEFfOdRQuBzLIqD0YOixQ7hYPwo3pIKcmsWQCpUoBA==",
       "path": "microsoft.jsinterop.webassembly/6.0.16",
       "hashPath": "microsoft.jsinterop.webassembly.6.0.16.nupkg.sha512"
+    },
+    "Microsoft.Net.Http.Headers/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iZNkjYqlo8sIOI0bQfpsSoMTmB/kyvmV2h225ihyZT33aTp48ZpF6qYnXxzSXmHt8DpBAwBTX+1s1UFLbYfZKg==",
+      "path": "microsoft.net.http.headers/2.2.0",
+      "hashPath": "microsoft.net.http.headers.2.2.0.nupkg.sha512"
     },
     "Microsoft.NET.Test.Sdk/17.5.0": {
       "type": "package",
@@ -3139,6 +3217,11 @@
       "hashPath": "xunit.extensibility.core.2.5.0.nupkg.sha512"
     },
     "BlogApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogApp.ClassLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

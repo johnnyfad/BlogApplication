@@ -1,0 +1,12 @@
+C:\Users\Research\source\repos\BlogApp\BlogApp\BlogApp.ClassLib\bin\Debug\net6.0\BlogApp.ClassLib.deps.json
+C:\Users\Research\source\repos\BlogApp\BlogApp\BlogApp.ClassLib\bin\Debug\net6.0\BlogApp.ClassLib.dll
+C:\Users\Research\source\repos\BlogApp\BlogApp\BlogApp.ClassLib\bin\Debug\net6.0\BlogApp.ClassLib.pdb
+C:\Users\Research\source\repos\BlogApp\BlogApp\BlogApp.ClassLib\obj\Debug\net6.0\BlogApp.ClassLib.csproj.AssemblyReference.cache
+C:\Users\Research\source\repos\BlogApp\BlogApp\BlogApp.ClassLib\obj\Debug\net6.0\BlogApp.ClassLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Research\source\repos\BlogApp\BlogApp\BlogApp.ClassLib\obj\Debug\net6.0\BlogApp.ClassLib.AssemblyInfoInputs.cache
+C:\Users\Research\source\repos\BlogApp\BlogApp\BlogApp.ClassLib\obj\Debug\net6.0\BlogApp.ClassLib.AssemblyInfo.cs
+C:\Users\Research\source\repos\BlogApp\BlogApp\BlogApp.ClassLib\obj\Debug\net6.0\BlogApp.ClassLib.csproj.CoreCompileInputs.cache
+C:\Users\Research\source\repos\BlogApp\BlogApp\BlogApp.ClassLib\obj\Debug\net6.0\BlogApp.ClassLib.dll
+C:\Users\Research\source\repos\BlogApp\BlogApp\BlogApp.ClassLib\obj\Debug\net6.0\refint\BlogApp.ClassLib.dll
+C:\Users\Research\source\repos\BlogApp\BlogApp\BlogApp.ClassLib\obj\Debug\net6.0\BlogApp.ClassLib.pdb
+C:\Users\Research\source\repos\BlogApp\BlogApp\BlogApp.ClassLib\obj\Debug\net6.0\ref\BlogApp.ClassLib.dll

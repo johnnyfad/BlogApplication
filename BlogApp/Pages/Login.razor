@@ -1,8 +1,12 @@
 ﻿@layout LoginLayout
 @page "/login"
+@using BlogApp.ClassLib.Model;
 @inject NavigationManager NavigationManager
+@inject HttpClient HttpClient
 <PageTitle>Login</PageTitle>
 <h3>Login</h3>
+
+
 
 <div class="form-group">
     <label for="username">Username:</label>
@@ -20,7 +24,14 @@
 @code {
     private string username;
     private string password;
+    private User[] users;
+    private string errorMessage;
 
+    protected override async Task OnInitializedAsync()
+    {
+        var users = await HttpClient.GetAsync("https://localhost:7111/api/User");
+        Console.WriteLine("User " + users.StatusCode);
+    }
     private void HandleLogin()
     {
         NavigationManager.NavigateTo("/");
